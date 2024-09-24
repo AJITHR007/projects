@@ -1,0 +1,27 @@
+body * {
+    visibility: hidden;
+}
+
+
+/* Display only payslip table when printing */
+
+.table {
+    visibility: visible;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+table th {
+    background-color: #8F4B84;
+    color: #fff;
+}
+
+.btn-primary,
+#closeButton {
+    display: none;
+}
